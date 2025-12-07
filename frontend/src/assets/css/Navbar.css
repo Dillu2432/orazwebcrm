@@ -1,0 +1,335 @@
+.navbar .nav-hover {
+  color: #4f7661;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-hover:hover {
+  color: #000000;
+}
+
+.hover-bounce:hover i {
+  animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-6px); }
+  50%  { transform: translateY(0); }
+  70%  { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
+}
+
+.transition-navbar {
+  transition: background-color 0.4s ease;
+}
+
+.transparent-navbar {
+  background-color: transparent !important;
+}
+.btn-free-consult {
+  
+  color: #0c5f35;
+  border: 2px solid #4f7661;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0 20px 20px 0;
+  transition: all 0.3s ease;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.btn-free-consult:hover {
+  background-color: #4f7661;
+  color: #fff;
+  border: 2px solid #4f7661;
+}
+
+.btn-free-consult i {
+  transition: transform 0.3s ease;
+}
+
+.btn-free-consult:hover i {
+  transform: scale(1.2);
+}
+
+/* Hover dropdown open */
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Transition for scroll background change */
+.transition-navbar {
+  transition: background-color 0.4s ease;
+  background-color: transparent;
+}
+
+/* Optional: Transparent navbar before scroll */
+.transparent-navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+
+.services-dropdown {
+  min-width: 700px;
+}
+
+.services-dropdown .dropdown-header {
+  font-size: 1.2rem;
+  color: #4f7661;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 0.5rem;
+}
+
+.services-dropdown a.dropdown-item {
+  padding-left: 0.5rem;
+ font-weight: 600;
+  font-size: 1rem;
+}
+
+
+.services-dropdown .row {
+  width: 100%;
+  margin: 0;
+}
+
+/* Slight left shift for mega menu */
+.shift-left-dropdown {
+  left: -150px !important;
+  right: auto !important;
+}
+.navbar-nav{
+  gap: 3rem;
+}
+@media (max-width: 767.98px) {
+  .nav-top{
+    display: none;
+  }
+  .navbar-nav{
+  gap: 1rem;
+}
+}
+
+ /* footer */
+
+
+.footer-05 {
+  background-color: #4f7661;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-05 .footer-heading {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer-05 .logo a {
+  font-size: 1.75rem;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-05 .logo span {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #d4e3dd;
+}
+
+.ftco-footer-social a {
+  font-size: 1.25rem;
+  display: inline-block;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.ftco-footer-social a:hover {
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.block-21 .heading a,
+.featured h3 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.block-21 .heading a:hover,
+.featured h3 a:hover {
+  color: #000000;
+}
+
+.block-21 .meta div {
+  font-size: 0.8rem;
+  color: #ccc;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.featured .text {
+  padding-left: 0;
+}
+
+.featured .rate svg {
+  margin-right: 2px;
+}
+
+.block-24 .img {
+  display: block;
+  width: 100%;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.subscribe-form .form-control {
+  border: none;
+  padding: 10px 15px;
+  font-size: 0.95rem;
+}
+
+.subscribe-form .form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.subscribe-form .btn {
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+  border: none;
+}
+
+.subscribe-form .btn:hover {
+  background-color: #000000;
+  color: #000;
+}
+
+.border-top,
+.border-bottom {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.copyright {
+  font-size: 0.875rem;
+  color: #ccc;
+}
+
+.copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+   .footer-05 {
+    text-align: center;
+   }
+ .footer-05 .footer-logo{
+  display: none;
+ }
+
+
+.subscribe-form .form-control {
+  border: none;
+  padding: 10px 15px;
+  font-size: 0.95rem;
+}
+
+.subscribe-form .form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.subscribe-form .btn {
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+  border: none;
+}
+
+.subscribe-form .btn:hover {
+  background-color: #000000;
+  color: #000;
+
+ }
+  .text-md-end {
+    text-align: center !important;
+  }
+
+  .justify-content-md-end {
+    justify-content: center !important;
+  }
+
+  .footer-service li{
+    justify-content: center;
+  }
+  .footer-insta,.footer-blog{
+    display: none;
+  }
+}
+
+
+.list-styled{
+ 
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+/* whatsapp */
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.whatsapp_float {
+  position: fixed;
+  bottom: 70px;
+  right: 80px;
+  z-index: 1000;
+  animation: bounce 2s infinite;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp_float:hover {
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 767.98px) {
+  .whatsapp_float {
+  bottom: 30px;
+  right: 30px;
+}
+}

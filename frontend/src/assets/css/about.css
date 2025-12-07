@@ -1,0 +1,127 @@
+.home-page {
+  color: #333;
+  padding: 2rem;
+
+}
+
+section {
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+.welcome-section {
+  background: #c2dcd0;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.welcome-section h5 {
+  font-size: 7.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-section h1 {
+  font-size: 10rem;
+  font-weight: 700;
+  color: #305946;
+}
+
+/* Tablets (<= 992px) */
+@media (max-width: 992px) {
+  .welcome-section h5 {
+    font-size: 5rem;
+  }
+  .welcome-section h1 {
+    font-size: 6rem;
+  }
+}
+
+/* Mobiles (<= 768px) */
+@media (max-width: 768px) {
+  .welcome-section {
+    padding: 3rem 1.5rem;
+  }
+  .welcome-section h5 {
+    font-size: 3.5rem;
+  }
+  .welcome-section h1 {
+    font-size: 4rem;
+  }
+}
+
+/* Small Mobiles (<= 480px) */
+@media (max-width: 480px) {
+  .welcome-section {
+    padding: 2rem 1rem;
+  }
+  .welcome-section h5 {
+    font-size: 2.5rem;
+  }
+  .welcome-section h1 {
+    font-size: 2.8rem;
+  }
+}
+
+.about-section p,
+.why-us-section p,
+.founder-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.slide-up {
+  animation: slideUp 2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.founder-section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.message-box {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 800px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.message-box h4 {
+  color: #00b894;
+  margin-bottom: 0.8rem;
+}
+
+.signature {
+  font-style: italic;
+  color: #555;
+  margin-top: 1rem;
+}

@@ -1,0 +1,181 @@
+/* Global Enhancements */
+.backgroundStyle {
+  background-image: url('../image/background-services.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  color: white;
+  border-radius: 12px;
+}
+
+.overlayStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1{
+  color: #4f7661; /* Bootstrap primary blue or customize */
+}
+
+h2 {
+  color: #000000; /* Bootstrap primary blue or customize */
+}
+
+p{
+    font-size: 16px;
+}
+
+.custom-section {
+  padding: 40px 0;
+}
+
+.custom-section h2 {
+  font-size: 1.9rem;
+}
+
+.custom-section ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.custom-section img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+.feature-box {
+  padding: 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Soft background colors */
+.bg-soft-primary {
+  background-color: #e8f0ff;
+}
+.bg-soft-secondary {
+  background-color: #f2f2f2;
+}
+.bg-soft-info {
+  background-color: #e0f7fa;
+}
+.bg-soft-warning {
+  background-color: #fff3cd;
+}
+.bg-soft-success {
+  background-color: #e6ffed;
+}
+
+
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Header Column Backgrounds */
+.custom-colored-table thead th:nth-child(1) {
+  background-color: #e0f7fa; /* Soft cyan */
+  text-align: center;
+}
+
+.custom-colored-table thead th:nth-child(2) {
+  background-color: #fff8e1; /* Soft yellow */
+  text-align: center;
+}
+
+.custom-colored-table thead th:nth-child(3) {
+  background-color: #e8f5e9; /* Soft green */
+  text-align: center;
+}
+
+/* Body Column Backgrounds */
+.custom-colored-table tbody td:nth-child(1) {
+  background-color: #e0f7fa;
+  font-weight: 600;
+}
+
+.custom-colored-table tbody td:nth-child(2) {
+  background-color: #fff8e1;
+}
+
+.custom-colored-table tbody td:nth-child(3) {
+  background-color: #e8f5e9;
+}
+
+/* Optional: Cell Padding and Borders */
+.custom-colored-table td,
+.custom-colored-table th {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  vertical-align: middle;
+  color: #333;
+  font-size: 16px;
+}
+
+/* List Enhancements */
+ul.list-unstyled li {
+  font-size: 1rem;
+  line-height: 1.7;
+  border-left: 4px solid  #4f7661;
+  padding-left: 12px;
+  background: #f8f9fa;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* Icons */
+.bi-check-circle {
+  color: #198754;
+  font-size: 1.2rem;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #198754;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e7f1ff;
+  color: #198754;
+  font-weight: bold;
+}
+
+.accordion-body {
+  background-color: #fcfcfc;
+  border-top: 1px solid #dee2e6;
+}
+
+
+/* Responsive Headings */
+@media (max-width: 768px) {
+  h1.display-4 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+.timeline .bi {
+  min-width: 3rem;
+}
+.timeline h5 {
+  font-size: 1.1rem;
+}
+.timeline p {
+  font-size: 0.95rem;
+}
