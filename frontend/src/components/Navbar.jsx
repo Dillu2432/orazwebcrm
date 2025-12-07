@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/css/navbar.css';
+import '../assets/css/Navbar.css';
 import logo from '../assets/image/logo-health-orazweb.png';
 import '../assets/css/global.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';

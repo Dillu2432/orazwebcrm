@@ -9,7 +9,7 @@ import pic1 from '../assets/image/ruhipic.jpeg';
 import pic2 from '../assets/image/pic2.jpg';
 import image1 from '../assets/image/blackboard.jpeg';
 import image2 from '../assets/image/typist.jpeg';
-import image3 from '../assets/image/dms.jpeg';
+import image3 from '../assets/image/DMS.jpeg';
 import logoabout from '../assets/image/aboutlog.png'
 
 import { FloatingWhatsApp } from 'react-floating-whatsapp';

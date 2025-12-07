@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Usually imported in index.js o
 import "../../assets/css/customwebsite.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import image1 from "../../assets/image/seo.jpeg";
+import image1 from "../../assets/image/SEO.jpeg";
 import image2 from "../../assets/image/laptop-coworking-space.jpg";
 
 const TechnicalseoPage = () => {
