@@ -13,8 +13,8 @@ import {
   FaArrowAltCircleRight,
   FaCheckCircle,
 } from 'react-icons/fa';
-import '../assets/css/navbar.css'; // Your custom CSS
-import instgram from '../assets/image/instagram.png';
+import '../assets/css/Navbar.css'; // Your custom CSS
+import instgram from '../assets/image/instagram.PNG';
 import logofooter from '../assets/image/logo.png';
 
 const Footer = () => {

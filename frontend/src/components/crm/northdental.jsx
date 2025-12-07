@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
   };
 
   try {
-    const res = await fetch("http://localhost:5000/api/northleads", {
+    const res = await fetch("/api/northleads", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload), // ✅ FIXED
@@ -128,7 +128,7 @@ const handleSubmit = async (e) => {
     });
 
     try {
-      const res = await fetch(`http://localhost:5000/api/northleads/${leadId}/step2`, {
+      const res = await fetch(`/api/northleads/${leadId}/step2`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ step: "2" }),

@@ -77,7 +77,7 @@ export default function Step1Form() {
     setMessage("");
 
     try {
-      const res = await fetch("http://localhost:5000/api/leads", {
+      const res = await fetch("/api/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
@@ -117,7 +117,7 @@ export default function Step1Form() {
     });
 
     try {
-      const res = await fetch(`http://localhost:5000/api/leads/${leadId}/step2`, {
+      const res = await fetch(`/api/leads/${leadId}/step2`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ step: "2" }),

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Usually imported in index.js o
 import "../../assets/css/customwebsite.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import image1 from "../../assets/image/instagram.jpeg";
+import image1 from "../../assets/image/instagram.PNG";
 import image2 from "../../assets/image/laptop-coworking-space.jpg";
 import person1 from "../../assets/image/person2.jpeg"
 

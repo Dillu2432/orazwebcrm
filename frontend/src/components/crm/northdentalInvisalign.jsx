@@ -3,7 +3,7 @@ import { Modal, Button } from "react-bootstrap";
 import ReactPixel from "react-facebook-pixel";
 import "../../assets/northdental.css";
 import halogo from "../../assets/images/north logo.svg";
-import teeth from "../../assets/images/northdentalstudio.JPG";
+import teeth from "../../assets/images/northdentalstudio.jpg";
 import why from "../../assets/images/northdentalstudio1.jpg";
 import pic2 from "../../assets/images/hapict2.jpg";
 import pic4 from "../../assets/images/hapictm1.jpg";
@@ -91,7 +91,7 @@ const handleSubmit = async (e) => {
   };
 
   try {
-    const res = await fetch("http://localhost:5000/api/northleads", {
+    const res = await fetch("/api/northleads", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload), // ✅ FIXED
@@ -131,7 +131,7 @@ const handleSubmit = async (e) => {
     });
 
     try {
-      const res = await fetch(`http://localhost:5000/api/northleads/${leadId}/step2`, {
+      const res = await fetch(`/api/northleads/${leadId}/step2`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ step: "2" }),

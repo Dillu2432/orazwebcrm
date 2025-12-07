@@ -26,7 +26,7 @@ import Localseo from "./components/services/local_seo";
 import Technicalseo from "./components/services/technical_seo";
 import Seoaudit from "./components/services/seo_audit";
 import Shopifyseo from "./components/services/Shopify_seo";
-import Wordpressseo from "./components/services/wordpress_seo";
+import Wordpressseo from "./components/services/Wordpress_seo";
 import Sem from "./components/services/sem";
 import Gam from "./components/services/gam";
 import Youtube from "./components/services/youtube";
